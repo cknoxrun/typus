@@ -17,6 +17,6 @@
 %>
 
 <li>
-  <%= form.label attribute, label_text %>
+  <%= form.label attribute, raw(label_text) %>
   <%= form.text_field attribute, options %>
 </li>
